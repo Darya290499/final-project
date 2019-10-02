@@ -1,0 +1,16 @@
+﻿<Window x:Class="Diplom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="183.473" Width="507.216"  Closed="Window_Closed" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+    <Grid Margin="0,0,0,-20" >
+        <Button x:Name="recruitment" Content="Прием на работу" HorizontalAlignment="Left" Margin="29,35,0,0" VerticalAlignment="Top" Width="198" Height="30" FontSize="14" Click="recruitment_Click" BorderBrush="{DynamicResource {x:Static SystemColors.InfoTextBrushKey}}" BorderThickness="2" />
+        <Button x:Name="staff" Content="Штатное расписание" HorizontalAlignment="Left" Margin="277,35,0,0" VerticalAlignment="Top" Width="198" Height="30" FontSize="14" Click="staff_Click" BorderBrush="{DynamicResource {x:Static SystemColors.InfoTextBrushKey}}" BorderThickness="2"/>
+        <Button x:Name="workers" Content="Список сотрудников" HorizontalAlignment="Left" Margin="153,90,0,0" VerticalAlignment="Top" Width="198" Height="30" FontSize="14" Click="workers_Click" BorderBrush="{DynamicResource {x:Static SystemColors.InfoTextBrushKey}}" BorderThickness="2"/>
+    </Grid>
+</Window>
